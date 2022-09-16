@@ -15,9 +15,9 @@ url = 'https://2domains.ru/login'
 
 def authentication():
     driver.get(url)
-    driver.find_element(By.ID,"loginform-username").send_keys("admin@leads.su")
+    driver.find_element(By.ID,"loginform-username").send_keys("")
     time.sleep(2)
-    driver.find_element(By.ID,"loginform-password").send_keys("AW31dsa1223sd3")
+    driver.find_element(By.ID,"loginform-password").send_keys("")
     time.sleep(2)
     driver.find_element(By.NAME,"login-button").click()
 
